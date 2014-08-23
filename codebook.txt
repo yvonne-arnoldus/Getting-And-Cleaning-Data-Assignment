@@ -1,0 +1,345 @@
+ subject.id                                                         
+	column: 1
+	description: the subject who performed the activity for each window sample
+	range: 1 .. 30
+	
+activity   
+	column: 2
+	description: the activity performed
+	range: 
+		WALKING
+		WALKING_UPSTAIRS
+		WALKING_DOWNSTAIRS
+		SITTING
+		STANDING
+		LAYING
+		
+time.body.accelerometer.mean.value.x.axis  
+	column: 3
+	description: mean value of the accelerometer movement in the x-axis by the subject. Captured at a constant rate of 50 Hz filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise
+	range: scientific number
+	
+time.body.accelerometer.mean.value.y.axis                          
+ 	column: 4
+	description: mean value of the accelerometer movement in the y-axis by the subject. Captured at a constant rate of 50 Hz filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise
+	range: scientific number
+	
+ time.body.accelerometer.mean.value.z.axis                          
+ 	column: 5
+	description: mean value of the accelerometer movement in the z-axis by the subject. Captured at a constant rate of 50 Hz filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise
+	range: scientific number
+	
+ time.body.accelerometer.standard.deviation.x.axis                  
+ 	column: 6
+	description: standard deviation of the accelerometer movement in the x-axis by the subject. Captured at a constant rate of 50 Hz filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise
+	range: scientific number
+	
+ time.body.accelerometer.standard.deviation.y.axis                  
+ 	column: 7
+	description: standard deviation of the accelerometer movement in the y-axis by the subject. Captured at a constant rate of 50 Hz filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise
+	range: scientific number
+	
+time.body.accelerometer.standard.deviation.z.axis                  
+ 	column: 8
+	description: standard deviation of the accelerometer movement in the z-axis by the subject. Captured at a constant rate of 50 Hz filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise
+	range: scientific number
+	
+time.gravity.accelerometer.mean.value.x.axis   
+	column: 9
+	description: mean value of the accelerometer movement in the x-axis by gravity. Captured at a constant rate of 50 Hz filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise
+	range: scientific number
+	
+time.gravity.accelerometer.mean.value.y.axis    
+	column: 10
+	description: mean value of the accelerometer movement in the y-axis by gravity. Captured at a constant rate of 50 Hz filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise
+	range: scientific number
+	
+time.gravity.accelerometer.mean.value.z.axis                       
+	column: 11
+	description: mean value of the accelerometer movement in the z-axis by gravity. Captured at a constant rate of 50 Hz filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise
+	range: scientific number
+	
+time.gravity.accelerometer.standard.deviation.x.axis               
+	column: 12
+	description: standard deviation of the accelerometer movement in the x-axis by gravity. Captured at a constant rate of 50 Hz filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise
+	range: scientific number
+	
+time.gravity.accelerometer.standard.deviation.y.axis               
+	column: 13
+	description: standard deviation of the accelerometer movement in the y-axis by gravity. Captured at a constant rate of 50 Hz filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise
+	range: scientific number
+	
+time.gravity.accelerometer.standard.deviation.z.axis               
+	column: 14
+	description: standard deviation of the accelerometer movement in the z-axis by gravity. Captured at a constant rate of 50 Hz filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise
+	range: scientific number
+	
+time.body.accelerometer.jerk.mean.value.x.axis                     
+	column: 15
+	description: mean value of the body linear acceleration jerk in the x-axis by the subject.
+	range: scientific number
+	
+time.body.accelerometer.jerk.mean.value.y.axis                     
+	column: 16
+	description: mean value of the body linear acceleration jerk in the y-axis by the subject.
+	range: scientific number
+	
+time.body.accelerometer.jerk.mean.value.z.axis                     
+	column: 17
+	description: mean value of the body linear acceleration jerk in the z-axis by the subject.
+	range: scientific number
+	
+time.body.accelerometer.jerk.standard.deviation.x.axis             
+	column: 18
+	description: standard deviation of the body linear acceleration jerk in the x-axis by the subject.
+	range: scientific number
+	
+time.body.accelerometer.jerk.standard.deviation.y.axis             
+	column: 19
+	description: standard deviation of the body linear acceleration jerk in the y-axis by the subject.
+	range: scientific number
+	
+time.body.accelerometer.jerk.standard.deviation.z.axis             
+	column: 20
+	description: standard deviation of the body linear acceleration jerk in the z-axis by the subject.
+	range: scientific number
+	
+time.body.gyroscope.mean.value.x.axis                              
+	column: 21
+	description: mean value of the angular velocity in the x-axis by the subject.
+	range: scientific number
+	
+time.body.gyroscope.mean.value.y.axis                              
+	column: 22
+	description: mean value of the angular velocity in the y-axis by the subject.
+	range: scientific number
+	
+time.body.gyroscope.mean.value.z.axis                              
+	column: 23
+	description: mean value of the angular velocity in the y-axis by the subject.
+	range: scientific number
+	
+time.body.gyroscope.standard.deviation.x.axis                      
+	column: 24
+	description: standard deviation of the angular velocity in the x-axis by the subject.
+	range: scientific number
+	
+time.body.gyroscope.standard.deviation.y.axis                      
+	column: 25
+	description: standard deviation of the angular velocity in the y-axis by the subject.
+	range: scientific number
+	
+time.body.gyroscope.standard.deviation.z.axis                      
+	column: 26
+	description: standard deviation of the angular velocity in the z-axis by the subject.
+	range: scientific number
+	
+time.body.gyroscope.jerk.mean.value.x.axis                         
+	column: 27
+	description: mean value of the angular velocity jerk in the x-axis by the subject.
+	range: scientific number
+	
+time.body.gyroscope.jerk.mean.value.y.axis   
+	column: 28
+	description: mean value of the angular velocity jerk in the y-axis by the subject.
+	range: scientific number  
+	
+time.body.gyroscope.jerk.mean.value.z.axis                         
+	column: 29
+	description: mean value of the angular velocity jerk in the z-axis by the subject.
+	range: scientific number
+	
+time.body.gyroscope.jerk.standard.deviation.x.axis                 
+	column: 30
+	description: standard deviation of the angular velocity jerk in the x-axis by the subject.
+	range: scientific number
+	
+time.body.gyroscope.jerk.standard.deviation.y.axis                 
+	column: 31
+	description: standard deviation of the angular velocity jerk in the y-axis by the subject.
+	range: scientific number
+	
+time.body.gyroscope.jerk.standard.deviation.z.axis                 
+	column: 32
+	description: standard deviation of the angular velocity jerk in the z-axis by the subject.
+	range: scientific number
+	
+time.body.accelerometer.magnitude.mean.value                       
+	column: 33
+	description: mean value of body linear acceleration magnitude in by the subject, calculated using the Euclidean norm.
+	range: scientific number
+	
+time.body.accelerometer.magnitude.standard.deviation               
+	column: 34
+	description: standard deviation of body linear acceleration magnitude in by the subject, calculated using the Euclidean norm.
+	range: scientific number
+	
+time.gravity.accelerometer.magnitude.mean.value                    
+	column: 35
+	description: mean value of body linear acceleration magnitude in by gravity, calculated using the Euclidean norm.
+	range: scientific number
+	
+time.gravity.accelerometer.magnitude.standard.deviation            
+	column: 36
+	description: standard deviation of body linear acceleration magnitude in by gravity, calculated using the Euclidean norm.
+	range: scientific number
+	
+time.body.accelerometer.jerk.magnitude.mean.value                  
+	column: 37
+	description: mean value of body linear acceleration jerk magnitude in by the subject, calculated using the Euclidean norm.
+	range: scientific number
+	
+time.body.accelerometer.jerk.magnitude.standard.deviation          
+	column: 38
+	description: standard deviation of body linear acceleration jerk magnitude in by the subject, calculated using the Euclidean norm.
+	range: scientific number
+	
+time.body.gyroscope.magnitude.mean.value                           
+	column: 39
+	description: mean value of angular velocity magnitude in by the subject, calculated using the Euclidean norm.
+	range: scientific number
+	
+time.body.gyroscope.magnitude.standard.deviation                   
+	column: 40
+	description: standard deviation of angular velocity magnitude in by the subject, calculated using the Euclidean norm.
+	range: scientific number
+	
+time.body.gyroscope.jerk.magnitude.mean.value                      
+	column: 41
+	description: mean value of angular velocity jerk magnitude in by the subject, calculated using the Euclidean norm.
+	range: scientific number
+	
+time.body.gyroscope.jerk.magnitude.standard.deviation              
+	column: 42
+	description: standard deviation of angular velocity jerk magnitude in by the subject, calculated using the Euclidean norm.
+	range: scientific number
+	
+frequency.body.accelerometer.mean.value.x.axis                     
+	column: 43
+	description: mean value of the Fast Fourier Transform of the accelerometer movement in the x-axis by the subject (column 3).
+	range: scientific number
+	
+frequency.body.accelerometer.mean.value.y.axis                     
+	column: 44
+	description: mean value of the Fast Fourier Transform of the accelerometer movement in the y-axis by the subject (column 4).
+	range: scientific number
+	
+frequency.body.accelerometer.mean.value.z.axis                     
+	column: 45
+	description: mean value of the Fast Fourier Transform of the accelerometer movement in the x-axis by the subject  (column 5).
+	range: scientific number
+	
+frequency.body.accelerometer.standard.deviation.x.axis             	
+	column: 46
+	description: standard deviation of the Fast Fourier Transform of the accelerometer movement in the x-axis by the subject (column 6).
+	range: scientific number
+	
+frequency.body.accelerometer.standard.deviation.y.axis             
+	column: 47
+	description: standard deviation of the Fast Fourier Transform of the accelerometer movement in the y-axis by the subject (column 7).
+	range: scientific number
+	
+frequency.body.accelerometer.standard.deviation.z.axis 
+	column: 48
+	description: standard deviation of the Fast Fourier Transform of the accelerometer movement in the z-axis by the subject (column 8).
+	range: scientific number
+	
+frequency.body.accelerometer.jerk.mean.value.x.axis                
+	column: 49
+	description: mean value of the Fast Fourier Transform of the body linear acceleration jerk in the x-axis by the subject (column 15).
+	range: scientific number
+	
+frequency.body.accelerometer.jerk.mean.value.y.axis                
+	column: 50
+	description: mean value of the Fast Fourier Transform of the body linear acceleration jerk in the y-axis by the subject (column 16).
+	range: scientific number
+	
+frequency.body.accelerometer.jerk.mean.value.z.axis                
+	column: 51
+	description: mean value of the Fast Fourier Transform of the body linear acceleration jerk in the z-axis by the subject (column 17).
+	range: scientific number
+	
+frequency.body.accelerometer.jerk.standard.deviation.x.axis        
+	column: 52
+	description: standard deviation of the Fast Fourier Transform of the body linear acceleration jerk in the x-axis by the subject (column 18).
+	range: scientific number
+	
+frequency.body.accelerometer.jerk.standard.deviation.y.axis        
+	column: 53
+	description: standard deviation of the Fast Fourier Transform of the body linear acceleration jerk in the y-axis by the subject (column 19).
+	range: scientific number 
+	
+frequency.body.accelerometer.jerk.standard.deviation.z.axis        
+	column: 54
+	description: standard deviation of the Fast Fourier Transform of the body linear acceleration jerk in the z-axis by the subject (column 20).
+	range: scientific number
+	
+frequency.body.gyroscope.mean.value.x.axis                         
+	column: 55
+	description: mean value of the Fast Fourier Transform of the angular velocity in the x-axis by the subject (column 21).
+	range: scientific number
+	
+frequency.body.gyroscope.mean.value.y.axis                         
+	column: 56
+	description: mean value of the Fast Fourier Transform of the angular velocity in the y-axis by the subject (column 22).
+	range: scientific number
+	
+frequency.body.gyroscope.mean.value.z.axis                         
+	column: 57
+	description: mean value of the Fast Fourier Transform of the angular velocity in the z-axis by the subject (column 23).
+	range: scientific number
+	
+frequency.body.gyroscope.standard.deviation.x.axis                 
+	column: 58
+	description: standard deviation of the Fast Fourier Transform of the angular velocity in the x-axis by the subject (column 24).
+	range: scientific number
+	
+frequency.body.gyroscope.standard.deviation.y.axis                 
+	column: 59
+	description: standard deviation of the Fast Fourier Transform of the angular velocity in the y-axis by the subject (column 25).
+	range: scientific number
+	
+frequency.body.gyroscope.standard.deviation.z.axis                 
+	column: 60
+	description: standard deviation of the Fast Fourier Transform of the angular velocity in the z-axis by the subject (column 26).
+	range: scientific number
+	
+frequency.body.accelerometer.magnitude.mean.value                  
+	column: 61
+	description: mean value of the Fast Fourier Transform of body linear acceleration magnitude in by the subject, calculated using the Euclidean norm (column 33).
+	range: scientific number
+	
+frequency.body.accelerometer.magnitude.standard.deviation          
+	column: 62
+	description: mean value of the Fast Fourier Transform of body linear acceleration magnitude in by the subject, calculated using the Euclidean norm (column 34).
+	range: scientific number
+	
+63 frequency.body.body.accelerometer.jerk.magnitude.mean.value        
+	column: 63
+	description: mean value of the Fast Fourier Transform of body linear acceleration jerk magnitude in the subject, calculated using the Euclidean norm (column 37).
+	range: scientific number
+	
+64 frequency.body.body.accelerometer.jerk.magnitude.standard.deviation
+	column: 64
+	description: standard deviation of the Fast Fourier Transform of body linear acceleration jerk magnitude in the subject, calculated using the Euclidean norm (column 38)
+	range: scientific number
+	
+65 frequency.body.body.gyroscope.magnitude.mean.value                 
+	column: 65
+	description: mean value of the Fast Fourier Transform of angular velocity magnitude in by the subject, calculated using the Euclidean norm (column 39).
+	range: scientific number
+	
+66 frequency.body.body.gyroscope.magnitude.standard.deviation         
+	column: 66
+	description: standard deviation of the Fast Fourier Transform of angular velocity magnitude in by the subject, calculated using the Euclidean norm (column 40).
+	range: scientific number
+	
+67 frequency.body.body.gyroscope.jerk.magnitude.mean.value            
+	column: 67
+	description: mean value of the Fast Fourier Transform of angular velocity jerk magnitude in by the subject, calculated using the Euclidean norm (column 41).
+	range: scientific number
+	
+68 frequency.body.body.gyroscope.jerk.magnitude.standard.deviation  
+	column: 68
+	description: standard deviation of the Fast Fourier Transform of angular velocity jerk magnitude in by the subject, calculated using the Euclidean norm (column 42).
+	range: scientific number
