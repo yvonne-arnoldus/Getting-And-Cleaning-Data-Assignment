@@ -4,9 +4,6 @@ Getting and Cleaning Data Course Project
 
 To run the run_analysis you need to follow the following steps:
 
-Step 0.
-Install the reshape package (https://github.com/hadley/reshape) in your R enviroment.
-
 Step 1. 
 Download the Human Activity Recognition Using Smartphones Data Set
 from this address: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
